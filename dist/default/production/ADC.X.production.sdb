@@ -1,0 +1,464 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"58 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\DISPLAY.c
+[e E2 . `uc
+FIRST_DIGIT 0
+SECOND_DIGIT 1
+THIRD_DIGIT 2
+]
+"4 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\ADC.c
+[v _ADC_Config ADC_Config `(v  1 e 1 0 ]
+"25
+[v _ADC_StartConv ADC_StartConv `(v  1 e 1 0 ]
+[v i1_ADC_StartConv ADC_StartConv `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"254 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\round.c
+[v _round round `(d  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"13 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\trunc.c
+[v _trunc trunc `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"58 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\DISPLAY.c
+[v _digitValue_set digitValue_set `(v  1 e 1 0 ]
+"72
+[v _DISPLAY_Init DISPLAY_Init `(v  1 e 1 0 ]
+"87
+[v _DISPLAY_SetNumber DISPLAY_SetNumber `(v  1 e 1 0 ]
+"22 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"51
+[v _ADC_TIMER1_ISR ADC_TIMER1_ISR `II(v  1 e 1 0 ]
+"4 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\TIMER.c
+[v _TIMER1_Config TIMER1_Config `(v  1 e 1 0 ]
+"33
+[v _TIMER1_SetValue TIMER1_SetValue `(v  1 e 1 0 ]
+[s S47 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[u S56 . 1 `S47 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES56  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S462 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295
+[u S471 . 1 `S462 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES471  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S171 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477
+[s S180 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S185 . 1 `S171 1 . 1 0 `S180 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES185  1 e 1 @11 ]
+[s S90 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"549
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES99  1 e 1 @12 ]
+"634
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+[s S388 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+]
+"680
+[s S394 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S400 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1INSYNC 1 0 :1:2 
+]
+[u S403 . 1 `S388 1 . 1 0 `S394 1 . 1 0 `S400 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES403  1 e 1 @16 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S236 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1190
+[s S242 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S250 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S253 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S256 . 1 `S236 1 . 1 0 `S242 1 . 1 0 `S250 1 . 1 0 `S253 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES256  1 e 1 @31 ]
+[s S154 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1340
+[u S161 . 1 `S154 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES161  1 e 1 @133 ]
+[s S26 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S35 . 1 `S26 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES35  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S441 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S450 . 1 `S441 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES450  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S203 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"1635
+[u S212 . 1 `S203 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES212  1 e 1 @140 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+[s S282 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2248
+[s S287 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[u S292 . 1 `S282 1 . 1 0 `S287 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES292  1 e 1 @159 ]
+"10 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\DISPLAY.c
+[v _binvalue binvalue `[10]uc  1 e 10 0 ]
+"24
+[v _binDigitIndicator binDigitIndicator `[3]uc  1 e 3 0 ]
+"16 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\main.c
+[v _ADC_Value ADC_Value `ui  1 e 2 0 ]
+"49
+[v _t t `i  1 e 2 0 ]
+"22
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+} 0
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\round.c
+[v _round round `(d  1 e 4 0 ]
+{
+"8
+[v round@f f `d  1 a 4 22 ]
+"6
+[v round@x x `d  1 p 4 18 ]
+"13
+} 0
+"13 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\trunc.c
+[v _trunc trunc `(d  1 e 4 0 ]
+{
+"15
+[v trunc@i i `d  1 a 4 4 ]
+"16
+[v trunc@expon expon `i  1 a 2 8 ]
+"13
+[v trunc@x x `d  1 p 4 0 ]
+"25
+} 0
+"254 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+{
+[v frexp@value value `d  1 p 4 12 ]
+[v frexp@eptr eptr `*.4i  1 p 1 16 ]
+"274
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 76 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 75 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 66 ]
+"70
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 10 ]
+[v ___flsub@b b `d  1 p 4 14 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 19 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 18 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 17 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 16 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S793 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S798 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S801 . 4 `l 1 i 4 0 `d 1 f 4 0 `S793 1 fAsBytes 4 0 `S798 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S801  1 a 4 34 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 28 ]
+[s S870 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S873 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S870 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S873  1 a 2 38 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 33 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 32 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 27 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 60 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 53 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 58 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 65 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 64 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 57 ]
+"8
+[v ___fldiv@a a `d  1 p 4 40 ]
+[v ___fldiv@b b `d  1 p 4 44 ]
+"185
+} 0
+"4 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\TIMER.c
+[v _TIMER1_Config TIMER1_Config `(v  1 e 1 0 ]
+{
+"31
+} 0
+"72 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\DISPLAY.c
+[v _DISPLAY_Init DISPLAY_Init `(v  1 e 1 0 ]
+{
+"85
+} 0
+"87
+[v _DISPLAY_SetNumber DISPLAY_SetNumber `(v  1 e 1 0 ]
+{
+"88
+[v DISPLAY_SetNumber@c c `uc  1 a 1 30 ]
+[v DISPLAY_SetNumber@b b `uc  1 a 1 29 ]
+[v DISPLAY_SetNumber@a a `uc  1 a 1 28 ]
+"87
+[v DISPLAY_SetNumber@num num `i  1 p 2 78 ]
+"99
+} 0
+"58
+[v _digitValue_set digitValue_set `(v  1 e 1 0 ]
+{
+[v digitValue_set@dig dig `E2  1 a 1 wreg ]
+[v digitValue_set@dig dig `E2  1 a 1 wreg ]
+[v digitValue_set@value value `uc  1 p 1 0 ]
+"61
+[v digitValue_set@dig dig `E2  1 a 1 1 ]
+"70
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 15 ]
+[v ___awmod@counter counter `uc  1 a 1 14 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 9 ]
+[v ___awmod@dividend dividend `i  1 p 2 11 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"25 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\ADC.c
+[v _ADC_StartConv ADC_StartConv `(v  1 e 1 0 ]
+{
+"27
+} 0
+"4
+[v _ADC_Config ADC_Config `(v  1 e 1 0 ]
+{
+"23
+} 0
+"51 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\main.c
+[v _ADC_TIMER1_ISR ADC_TIMER1_ISR `II(v  1 e 1 0 ]
+{
+"73
+} 0
+"25 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\ADC.c
+[v i1_ADC_StartConv ADC_StartConv `(v  1 e 1 0 ]
+{
+"27
+} 0
+"33 C:\Users\joaqu\Desktop\TP3-MED\ADC.X\TIMER.c
+[v _TIMER1_SetValue TIMER1_SetValue `(v  1 e 1 0 ]
+{
+[v TIMER1_SetValue@value value `i  1 p 2 0 ]
+"35
+} 0
